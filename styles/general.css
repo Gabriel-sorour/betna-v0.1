@@ -5,6 +5,11 @@ p {
 
 button {
   cursor: pointer;
+
+  -webkit-tap-highlight-color: transparent; /* Removes the blue highlight on tap */
+  -webkit-user-select: none; /* Prevents text selection */
+  user-select: none;
+  outline: none; /* Removes the focus outline */
 }
 body{
   transition: all .15s;
