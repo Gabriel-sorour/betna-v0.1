@@ -17,3 +17,15 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 114px;
 }
+
+.info{
+  width: 300px;
+  text-align: right;
+  color: rgb(109, 109, 109);
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  font-size: 14px;
+}.info p{
+  color: blue;
+}
