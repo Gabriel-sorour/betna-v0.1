@@ -1,0 +1,14 @@
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+button {
+  cursor: pointer;
+}
+body{
+  transition: all .15s;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 114px;
+}
