@@ -29,3 +29,8 @@ body{
 }.info p{
   color: blue;
 }
+
+a:focus, a:active, img:focus, img:active {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
