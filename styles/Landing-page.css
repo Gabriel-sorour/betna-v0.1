@@ -23,36 +23,60 @@ font-size: 30px;
 }
 
 @media (max-width : 1300px) {
-  main{
+  main {
     height: 350px;
-   }
-    .title-p{
-      font-size: 46px;
-    }
-    .welcome-text-div{
-      font-size: 23px;
-    }
-    .welcome-div{
-      width: 745px;
-    }
   }
 
-@media (max-width : 400px){
-  main{
+  .title-p {
+    font-size: 46px;
+  }
+
+  .welcome-text-div {
+    font-size: 23px;
+  }
+
+  .welcome-div {
+    width: 745px;
+  }
+}
+
+@media (max-width : 500px) {
+  main {
     height: 200px;
     padding-top: 100px;
   }
-    .title-p{
-      font-size: 46px;
-    }
-    .welcome-text-div{
-      font-size: 10px;
-    }
-    .title-p{
-      font-size: 30px;
-    }
-    .welcome-div{
-      width: 275px;
 
-    }
+  .welcome-text-div {
+    font-size: 10px;
+  }
+
+  .title-p {
+    font-size: 30px;
+  }
+
+  .welcome-div {
+    width: 275px;
+
+  }
+}
+
+@media (min-width : 501px) and (max-width : 900px) {
+  main {
+    height: 300px;
+    padding-top: 100px;
+  }
+
+  .title-p {
+    font-size: 35px;
+  }
+
+  .welcome-text-div {
+    font-size: 14px;
+  }
+
+
+  .welcome-div {
+    width: 400px;
+
+  }
 }
